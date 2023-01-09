@@ -240,3 +240,14 @@ a {
     margin-top: 9rem;
   }
 }
+
+@media screen and (max-width: 466px) {
+  header h1 {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.25rem;
+  }
+  .img-container {
+    top: 13.2rem;
+  }
+}
