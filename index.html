@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luke Gartner Resume</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <!-- normalize css -->
+    <link rel="stylesheet" href="./normalize.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <h1><span>Luke</span> Gartner</h1>
+      <h5>Web Developer</h5>
+      <div class="img-container">
+        <img src="./me.png" alt="Luke Gartner Headshot" />
+      </div>
+    </header>
+    <main>
+      <section class="left-column">
+        <!-- contact -->
+        <div class="contact-center">
+          <div class="contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <h5>651-247-1476</h5>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <h5>lukegartner4@gmail.com</h5>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <h5>Eagan, MN</h5>
+          </div>
+          <div class="contact-item">
+            <i class="fa-solid fa-globe"></i>
+            <h5>
+              <a
+                href="https://lukegartnerportfolio.netlify.app/"
+                target="_blank"
+                >lukegartnerportfolio.netlify.app</a
+              >
+            </h5>
+          </div>
+        </div>
+        <!-- end of contact -->
+        <!-- skills -->
+        <div class="skills-center">
+          <h4>Skills</h4>
+          <ul>
+            <li>Javascript</li>
+            <li>React</li>
+            <li>NodeJS</li>
+            <li>HTML5</li>
+            <li>CSS</li>
+            <li>Git</li>
+            <li>Project Management Tools</li>
+            <li>Strong Communication</li>
+            <li>Leadership</li>
+          </ul>
+        </div>
+        <!-- end of skills -->
+        <!-- education -->
+        <div class="education-center">
+          <h4>Education</h4>
+          <h5>A.A.S</h5>
+          <h6 class="thin">Minneapolis Media Institute</h6>
+          <h6>Feb 2014 - June 2015</h6>
+        </div>
+        <!-- end of education -->
+      </section>
+      <section class="right-column">
+        <!-- Projects -->
+        <div class="projects-center">
+          <h4>Projects</h4>
+          <h5>E-Commerce</h5>
+          <ul>
+            <li>Responsive e-commerce website built with React</li>
+            <li>
+              Utilizes styled components, react hooks, custom hooks, react
+              router, and axios
+            </li>
+            <li>
+              Connects with Stripe to handle payments, Auth0 for authentication,
+              and a custom API providing product information
+            </li>
+          </ul>
+        </div>
+        <!-- End of Projects -->
+        <!-- Experience -->
+        <div class="experience-center">
+          <h4>Experience</h4>
+          <div class="experience-item">
+            <h5>Campus Production Manager</h5>
+            <h6 class="thin">Hosanna Church</h6>
+            <h6>July 2017 - present</h6>
+            <ul>
+              <li>
+                Implemented automation and empowered volunteers reducting the
+                staffing needs for the production department by 30% at one
+                campus
+              </li>
+              <li>
+                Improved the experience of audio, video, lighting, and streaming
+                while growing the volunteer team by 25% a year
+              </li>
+            </ul>
+          </div>
+          <div class="experience-item">
+            <h5>Technical Arts Director</h5>
+            <h6 class="thin">Trinity Church</h6>
+            <h6>Oct 2015 - July 2017</h6>
+            <ul>
+              <li>
+                Implemented modern audio, video, and lighting elements while
+                growing the volunteer team by 400%
+              </li>
+              <li>
+                Pioneered the video production department increasing custom
+                video usage by over 300% with lower cost
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- End of Experience -->
+      </section>
+    </main>
+    <!-- dark theme toggle -->
+    <button type="button" class="btn toggle-btn">Dark</button>
+    <script src="./index.js"></script>
+  </body>
+</html>
